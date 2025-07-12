@@ -1,0 +1,30 @@
+<odoo>
+
+<data noupdate="1">
+
+<!--  Skill Swap User Group  -->
+
+<record id="group_skill_swap_user" model="res.groups">
+
+<field name="name">Skill Swap User</field>
+
+<field name="category_id" 
+ref="base.module_category_hidden"/>
+
+</record>
+
+<!--  Skill Swap Admin Group  -->
+
+<record id="group_skill_swap_admin" 
+model="res.groups">
+
+<field name="name">Skill Swap Admin</field>
+
+<field name="category_id" 
+ref="base.module_category_hidden"/>
+
+</record>
+
+</data>
+
+</odoo>

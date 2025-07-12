@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_skill_user,access.skill.user,model_skill_swap_skill,group_skill_swap_user,1,1,1,0
+access_swap_user,access.swap.user,model_skill_swap_request,group_skill_swap_user,1,1,1,1
+access_skill_admin,access.skill.admin,model_skill_swap_skill,group_skill_swap_admin,1,1,1,1
+access_swap_admin,access.swap.admin,model_skill_swap_request,group_skill_swap_admin,1,1,1,1
